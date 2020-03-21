@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/socket/pom.xml" />
         <option value="$PROJECT_DIR$/thread/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
       </list>
     </option>
   </component>

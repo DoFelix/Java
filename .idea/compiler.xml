@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="socket" />
+        <module name="test" />
         <module name="thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="socket" target="1.5" />
-      <module name="thread" target="1.5" />
+      <module name="socket" target="8" />
+      <module name="test" target="8" />
+      <module name="thread" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

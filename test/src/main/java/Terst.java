@@ -1,4 +1,4 @@
-public class Demo1 {
+public class Terst {
     public static void main(String[] args) {
         System.out.println(123);
     }
