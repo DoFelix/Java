@@ -1,0 +1,14 @@
+1.java项目多模块搭建 => 右键项目new module
+
+2.Idea自带Junit测试包 直接在pom引入即可
+	 <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
+	
+3.idea Error:java: Compilation failed: internal java compiler error
+	解决方案：
+		File => Setting => Build =>compiler =>java compiler => 提升对应项目的jdk编译器版本
